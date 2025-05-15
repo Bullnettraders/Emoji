@@ -17,7 +17,7 @@ class MessageCreateListener extends Listener {
     for (const word of greetings.words) {
       if (content.includes(word)) {
         try {
-          await message.react(greetings.emoji); // NUR reagieren mit Emoji
+          await message.react(greetings.emoji);
           break;
         } catch (error) {
           console.error('Fehler beim Emoji-Reagieren:', error);
