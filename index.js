@@ -1,4 +1,3 @@
-require('dotenv').config();
 const { SapphireClient } = require('@sapphire/framework');
 const { GatewayIntentBits, Partials } = require('discord.js');
 
